@@ -1,5 +1,7 @@
+require 'pry'
+
 def oxford_comma(array)
-  while array.length <= 6
-    "#{array}.join(", ")"
+  if array.length > 3
+    binding.pry
   end
 end
