@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  when array.length 
+  while array.length =< 6
+    "#{array}.join(", ")"
 end
